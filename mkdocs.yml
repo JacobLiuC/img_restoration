@@ -1,0 +1,40 @@
+site_name: Signal Prism
+site_description: 图像编辑、视觉恢复与智能图像系统公开趋势站
+site_url: ""
+repo_url: ""
+docs_dir: public_docs
+theme:
+  name: material
+  language: zh
+  custom_dir: public_docs/overrides
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: black
+      accent: teal
+plugins:
+  - search
+not_in_nav: |
+  /daily_updates/*.md
+  !/daily_updates/index.md
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+markdown_extensions:
+  - admonition
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+nav:
+  - 首页: index.md
+  - 最新趋势报告: trends.md
+  - 每日更新: daily_updates/index.md
