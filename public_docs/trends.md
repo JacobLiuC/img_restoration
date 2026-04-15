@@ -1,8 +1,62 @@
-# 2025Q4-2026Q2 公开趋势速览
+<section class="report-hero reveal-on-scroll">
+  <div class="hero-kicker">Trend Report</div>
+  <h1 class="report-title">2025Q4-2026Q2 公开趋势速览</h1>
+  <p class="report-subtitle">只保留最近窗口中的模型发布、模型卡、论文、评测与仓库动向，聚焦真正推动图像系统代际变化的公开信号。</p>
+  <div class="report-stats">
+    <div><span>Window</span><strong>2025.10 → 2026.04</strong></div>
+    <div><span>Core Axes</span><strong>Session / Reasoning / Fidelity</strong></div>
+    <div><span>Update</span><strong>2026-04-15</strong></div>
+  </div>
+</section>
 
-更新日期：`2026-04-15`
+<section class="curation-strip reveal-on-scroll">
+  <div class="curation-chip">
+    <span>Reading Rule</span>
+    只追踪最近窗口中的关键拐点
+  </div>
+  <div class="curation-chip">
+    <span>Core Lens</span>
+    会话状态、推理链路、真实性控制
+  </div>
+  <div class="curation-chip">
+    <span>Output</span>
+    产品信号、论文动向与工程启示
+  </div>
+</section>
 
-这份报告只保留 `2025-10-01` 到 `2026-04-15` 的公开信号，聚焦模型发布、模型卡、论文、评测与仓库动向。
+<section class="orbital-grid reveal-on-scroll">
+  <article class="orbital-card orbital-card-primary">
+    <div class="section-label">Executive View</div>
+    <h2>最近半年的真正分水岭，是图像系统开始具备工作流属性。</h2>
+    <p>公开趋势已经不再只围绕生成质量展开，而是转向会话状态、显式推理、验证闭环和区域修复的系统级协同。</p>
+  </article>
+  <article class="orbital-card orbital-card-secondary">
+    <div class="section-label">Priority Lens</div>
+    <ul class="signal-list">
+      <li>优先观察多轮会话与跨回合一致性</li>
+      <li>关注 verifier 是否真正进入过程层</li>
+      <li>区分统一模型能力与系统级控制能力</li>
+    </ul>
+  </article>
+</section>
+
+<section class="glance-strip reveal-on-scroll">
+  <article class="glance-card">
+    <span>Product</span>
+    <strong>Multi-Turn Is Shipping</strong>
+    <p>公开产品开始把多轮编辑和跨回合一致性写进能力边界。</p>
+  </article>
+  <article class="glance-card">
+    <span>Research</span>
+    <strong>Reasoning Is Explicit</strong>
+    <p>规划、反思、搜索和工具调度正在从技巧变成正式课题。</p>
+  </article>
+  <article class="glance-card">
+    <span>Infra</span>
+    <strong>Verifier Moves Forward</strong>
+    <p>评测与保真控制从结果层开始前移到过程层。</p>
+  </article>
+</section>
 
 ## 总览
 
@@ -19,6 +73,24 @@
 
 4. `智能体化恢复`
    图像恢复不再只是单模型推理，而是感知、路由、验证、回退和局部修复组成的闭环系统。
+
+<section class="brief-grid reveal-on-scroll">
+  <div class="brief-card">
+    <div class="signal-tag">What Changed</div>
+    <h3>从单次生成转向系统协作</h3>
+    <p>真正拉开差距的，不再只是生成质量，而是多轮上下文、验证闭环和过程控制。</p>
+  </div>
+  <div class="brief-card">
+    <div class="signal-tag">Why It Matters</div>
+    <h3>图像系统开始具备工作流属性</h3>
+    <p>搜索、反思、工具调用、局部修复逐步进入主流能力边界。</p>
+  </div>
+  <div class="brief-card">
+    <div class="signal-tag">What To Watch</div>
+    <h3>验证器与任务解耦</h3>
+    <p>越来越多的公开工作在强化保真控制与评测过程，而不是只拼最终图像。</p>
+  </div>
+</section>
 
 ## 产业侧公开信号
 
@@ -87,6 +159,24 @@
 
 公开研究一边推动理解、生成、编辑统一，一边也在强调计划层、保真层和验证层的显式解耦。
 
+<section class="matrix-shell reveal-on-scroll">
+  <div class="matrix-card">
+    <div class="matrix-index">A</div>
+    <h3>产品信号</h3>
+    <p>Gemini、OpenAI、Qwen、FLUX 都在向多轮会话与更强一致性靠拢。</p>
+  </div>
+  <div class="matrix-card">
+    <div class="matrix-index">B</div>
+    <h3>研究信号</h3>
+    <p>Reasoning、Benchmark、Verifier 与 Agentic Restoration 的耦合更紧。</p>
+  </div>
+  <div class="matrix-card">
+    <div class="matrix-index">C</div>
+    <h3>工程信号</h3>
+    <p>生产级站点与系统级流程都越来越强调高吞吐、回退能力和分层控制。</p>
+  </div>
+</section>
+
 ## 这轮趋势带来的启示
 
 ### 1. 单一生成能力不再足够
@@ -107,3 +197,8 @@
 - 公开模型卡是否继续把 `thinking / search / tool use` 写进图像能力说明
 - 学术评测是否进一步把 verifier 和过程质量作为标准项
 - 工程开源是否出现更成熟的区域修复、回退与重试机制
+
+<section class="footer-note reveal-on-scroll">
+  <div class="footer-note-label">Trend Reading Rule</div>
+  <p>这份趋势页强调“最近窗口中的关键拐点”，不复述过旧背景，不展示内部方法草稿，只保留对外可验证的公开证据与高密度结论。</p>
+</section>
