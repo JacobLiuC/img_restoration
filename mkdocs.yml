@@ -36,5 +36,6 @@ markdown_extensions:
       permalink: true
 nav:
   - 首页: index.md
-  - 最新趋势报告: trends.md
   - 每日更新: daily_updates/index.md
+exclude_docs: |
+  trends.md
