@@ -1,11 +1,11 @@
 <section class="report-hero brief-hero reveal-on-scroll">
-  <div class="hero-kicker">Daily Feed</div>
+  <div class="hero-kicker">Research Archive</div>
   <h1 class="report-title">每日观察</h1>
-  <p class="report-subtitle">这里汇总每日的重要论文、产品发布与工程动态，并围绕核心趋势给出紧凑解读。</p>
+  <p class="report-subtitle">这里汇总每日的重要论文、产品发布与工程动态，并围绕关键变化给出解读。</p>
   <div class="report-stats">
-    <div><span>Cadence</span><strong>Daily 07:00</strong></div>
-    <div><span>Format</span><strong>Research Brief</strong></div>
-    <div><span>Focus</span><strong>Paper / Product / Repo</strong></div>
+    <div><span>重点</span><strong>论文 / 产品 / 工程</strong></div>
+    <div><span>形式</span><strong>每日观察</strong></div>
+    <div><span>内容</span><strong>趋势 / 方法 / 结论</strong></div>
   </div>
 </section>
 
