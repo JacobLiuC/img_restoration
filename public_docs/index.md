@@ -24,8 +24,8 @@
 
 <section class="brief-grid reveal-on-scroll">
   <article class="brief-card">
-    <h3><a href="daily_updates/2026-04-17/">每日观察 - 2026-04-17</a></h3>
-    <p>最新一期已经扩成详解版，重点补了 CoVFT、FlowInOne、RefineAnything、边生成边思考和 Nano Banana 2 替代 restoration 评测。</p>
+    <h3><a href="daily_updates/2026-04-21/">每日观察 - 2026-04-21</a></h3>
+    <p>最新一期继续围绕 CoVFT、FlowInOne、RefineAnything、边生成边思考和 Nano Banana 2 替代 restoration 评测等方向做详解梳理。</p>
   </article>
   <article class="brief-card">
     <h3><a href="daily_updates/">查看全部日报</a></h3>
